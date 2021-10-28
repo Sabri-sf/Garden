@@ -1,0 +1,24 @@
+
+//分配问题连续循环
+
+package Study;
+public class House {
+	public static void main(String[] args) {
+//初始化大中小马
+		int big;
+		int mid;
+		double small;
+		for(big=0;big<=100;big++) {
+			for(mid=0;mid<=100;mid++) {
+				for(small=0;small<=100;small++) {
+					if(big+small+mid==100){
+						if(2*big+mid+(small/2)==100) {
+						System.out.println(big+","+mid+","+small);
+						}
+					}
+				}
+				
+			}
+		}
+	}
+}

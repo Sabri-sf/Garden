@@ -1,0 +1,37 @@
+package tsc.com;
+
+import java.util.Scanner;
+
+public class Multplication {
+	public static void main(String[] arge) {
+		Scanner scanner=new Scanner(System.in);
+		int pattern=scanner.nextInt();
+		switch(pattern) {
+		case 1:
+		int num;
+		for(int i=1;i<=9;i++) {
+			for(int j=1;j<=i;j++) {
+				num=i*j;
+				System.out.print(j+"*"+i+"="+num+"\t");
+			}
+			System.out.println();
+		}
+		case 2:
+			Scanner scanner1=new Scanner(System.in);
+			int size=scanner.nextInt();
+			int size1=scanner.nextInt();
+			for(int i=size1;i<=size;i++) {
+				for(int j=1;j<=i;j++) {
+					num=i*j;
+					System.out.print(j+"*"+i+"="+num+"\t");
+				}
+				System.out.println();
+			}
+		
+		}
+
+}
+
+		
+	}
+
